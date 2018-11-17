@@ -1,0 +1,110 @@
+{
+    "week1": {
+        "part": 0,
+        "name": "Introduction: Defining the public’s right to know",
+        "speaker": "Juan Pablo Alperin",
+        "date": "06/09/2018",
+        "required": ["https://repository.arizona.edu/bitstream/handle/10150/106529/jwapbook.pdf?sequence=1"],
+        "optional":[]
+    },
+    "week2": {
+        "part": 0,
+        "name": "Calling Bullshit on Fake News",
+        "speaker": "Jevin West",
+        "date": "13/09/2018",
+        "required": ["http%3A%2F%2Fwww2.csudh.edu%2Fccauthen%2F576f12%2Ffrankfurt__harry_-_on_bullshit.pdf",
+                     "http%3A%2F%2Fwww.inf.fu-berlin.de%2Flehre%2Fpmo%2Feng%2FSagan-Baloney.pdf"],
+        "optional": ["http://www.nytimes.com/2016/11/25/world/europe/fake-news-donald-trump-hillary-clinton-georgia.html"]
+    },
+    "week3": {
+        "part": 1,
+        "name": "Value of research in public policy",
+        "speaker": "Nancy Olewiler",
+        "date": "20/09/2018",
+        "required": ["https://paulcairney.wordpress.com/ebpm/",
+                    "https%3A%2F%2Fwww.scholcommlab.ca%2Fwp-content%2Fuploads%2F2018%2F09%2Fjuntti2009.pdf",
+                    "https%3A%2F%2Fwww.scholcommlab.ca%2Fwp-content%2Fuploads%2F2018%2F09%2Fstrassheim2014.pdf"],
+        "optional": ["https://www.schoolofpublicpolicy.sk.ca/research/publications/policy-brief/evidence-based-policy-development.php",
+                    "http://www.horizons.gc.ca/en/content/capacity-collaboration-and-culture-future-policy-research-function-government-canada",
+                    "http://sci-hub.tw/10.1093/scipol/scw055"]
+    },
+    "week5a": {
+        "part": 1,
+        "name": "Knowledge Sharing and Social Responsibility",
+        "speaker": "Mario Pinto",
+        "date": "01/10/2018",
+        "required": [],
+        "optional": []
+    },
+    "week5b": {
+        "part": 2,
+        "name": "University-Community Connections",
+        "speaker": "Luke Terra",
+        "date": "04/10/2018",
+        "required": ["https%3A%2F%2Fwww.scholcommlab.ca%2Fwp-content%2Fuploads%2F2018%2F09%2FPublicness-in-RPT.pdf",
+                    "https%3A%2F%2Ffiles.eric.ed.gov%2Ffulltext%2FEJ1018672.pdf"],
+        "optional": ["https%3A%2F%2Fwww.scholcommlab.ca%2Fwp-content%2Fuploads%2F2018%2F03%2Fhartley2009.pdf"]
+    },
+    "week6": {
+        "part": 2,
+        "name": "Collaborating with indigenous communities in research",
+        "speaker": "John Borrows",
+        "date": "10/10/2018",
+        "required":["https://www.scholcommlab.ca/wp-content/uploads/2018/03/EmilySnyderValNapoleonJoh.pdf"],
+        "optional":[]
+    },
+    "week7": {
+        "part": 2,
+        "name": "Understanding the public’s use of research through social media",
+        "speaker": "Juan Pablo Alperin",
+        "date": "16/10/2018",
+        "required":["https%3A%2F%2Farxiv.org%2Fftp%2Farxiv%2Fpapers%2F1603%2F1603.04939.pdf"],
+        "optional":[]
+    },
+    "week8": {
+        "part": 2,
+        "name": "Citizen Science",
+        "speaker": "Shannon Dosemagen",
+        "date": "25/10/2018",
+        "required": ["https%3A%2F%2Fwww.researchgate.net%2Fprofile%2FTina_Phillips%2Fpublication%2F282669254_Can_citizen_science_enhance_public_understanding_of_science%2Flinks%2F5620083b08ae93a5c92439dd.pdf",
+                   "https%3A%2F%2Fwww.epa.gov%2Fsites%2Fproduction%2Ffiles%2F2018-04%2Fdocuments%2Fnacept_citizen_science_publication_eng_022318_rf508_508.pdf"],
+        "optional": ["https://www.nature.com/articles/d41586-018-07106-5"]
+    },
+    "week9": {
+        "part": 3,
+        "name": "Why access matters",
+        "speaker": "Juan Pablo Alperin",
+        "date": "01/11/2018",
+        "required":["https%3A%2F%2Fthewinnower.com%2Fpapers%2F4715-correlating-the-sci-hub-data-with-world-bank-indicators-and-identifying-academic-use",
+                   "https%3A%2F%2Fstacks.stanford.edu%2Ffile%2Fdruid%3Ajr256tk1194%2FAlperinDissertationFinalPublicImpact-augmented.pdf",
+                   "https%3A%2F%2Fpeerj.com%2Farticles%2F4375%2F"],
+        "optional":  []
+    },
+    "week10": {
+        "part": 3,
+        "name": "Global participation in knowledge production",
+        "speaker": "Hebe Vesuri",
+        "date": "08/11/2018",
+        "required": ["http://unescochair-cbrsr.org/pdf/resource/RFA.pdf",
+                    "http://eprints.rclis.org/23682/1/Current-socio-published-non-Sage-format.pdf"],
+        "optional": []
+    },
+    "week11": {
+        "part": 3,
+        "name": "Critical Approaches to Open Access",
+        "speaker": "Juan Pablo Alperin",
+        "date": "15/11/2018",
+        "required": ["https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0127502",
+                    "https://www.scholcommlab.ca/wp-content/uploads/2018/11/PrinciplesforOpenScholarlyInfrastructures.pdf",
+                    "https://crln.acrl.org/index.php/crlnews/article/view/17246/18986"],
+        "optional": []
+    },
+    "week12": {
+        "part": 3,
+        "name": "The Future of the Public Mission of Universities",
+        "speaker": "Robin DeRosa",
+        "date": "22/11/2018",
+        "required": ["https://generousthinking.hcommons.org/4-working-in-public/"],
+        "optional": []
+    }
+}
