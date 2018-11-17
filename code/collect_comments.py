@@ -37,18 +37,31 @@ for week, v in classes.items():
         readings.loc[len(readings)+1] = [urltools.unquote(url), week,
                                          part, date, False, speaker, None, None]
 
+
 # Collect hypothesis data for those readings
+def query_altmetric(url, start,):
+    params = {
+        'url': url,
+        'limit': 200,
+        'offset': start
+        }
+    r = requests.get(API_URL + "/search", headers=headers, params=params)
+    return r.json()
+
 responses = []
 for ix, row in tqdm(list(readings.iterrows()), desc="Querying Hypothes.is"):
-    url = row['url']
+    rows = []
+    offset = 0
+    resp = query_altmetric(row['url'], offset)
+    total = resp['total']
+    rows.extend(resp['rows'])
+    while len(rows) < total:
+        offset = offset + 200
+        resp = query_altmetric(row['url'], )
+        rows.extend(resp['rows'])
+    readings.loc[ix, 'resp'] = json.dumps(rows)
+    readings.loc[ix, 'total'] = total
 
-    params = {'url': url,
-              'limit': 200}
-
-    r = requests.get(API_URL + "/search", headers=headers, params=params)
-    resp = r.json()
-    readings.loc[ix, 'resp'] = json.dumps(resp['rows'])
-    readings.loc[ix, 'total'] = resp['total']
 readings.index.name = "id"
 readings.to_csv("../data/readings.csv")
 
@@ -62,8 +75,8 @@ for ix, row in tqdm(list(readings.iterrows()), desc="Parsing annotations"):
         id = r['id']
         user = r['user'][5:-12]
         text = "".join(r['text'])
-        created = pd.datetime.strptime(r['created'].split("T")[0], "%Y-%m-%d")
-        updated = pd.datetime.strptime(r['updated'].split("T")[0], "%Y-%m-%d")
+        created = pd.datetime.strptime(r['created'].split("+")[0], "%Y-%m-%dT%H:%M:%S.%f")
+        updated = pd.datetime.strptime(r['updated'].split("+")[0], "%Y-%m-%dT%H:%M:%S.%f")
         if 'references' in r:
             references = r['references']
         else:
