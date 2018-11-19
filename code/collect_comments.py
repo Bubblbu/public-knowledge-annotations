@@ -22,7 +22,9 @@ usernames = json.load(open("../data/usernames.json"))
 # Create dataframe for the individual readings
 readings = pd.DataFrame(columns=["url", "week", "part", "date",
                                  "required", "speaker", "total", "resp"])
-for week, v in classes.items():
+
+for week in sorted(classes.keys(), key=int):
+    v = classes[week]
     speaker = v['speaker']
     name = v['name']
     date = pd.datetime.strptime(v['date'], '%d/%m/%Y')
