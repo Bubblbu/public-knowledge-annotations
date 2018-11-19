@@ -1,5 +1,5 @@
 {
-    "week1": {
+    "1": {
         "part": 0,
         "name": "Introduction: Defining the public’s right to know",
         "speaker": "Juan Pablo Alperin",
@@ -7,7 +7,7 @@
         "required": ["https://repository.arizona.edu/bitstream/handle/10150/106529/jwapbook.pdf?sequence=1"],
         "optional":[]
     },
-    "week2": {
+    "2": {
         "part": 0,
         "name": "Calling Bullshit on Fake News",
         "speaker": "Jevin West",
@@ -16,7 +16,7 @@
                      "http%3A%2F%2Fwww.inf.fu-berlin.de%2Flehre%2Fpmo%2Feng%2FSagan-Baloney.pdf"],
         "optional": ["http://www.nytimes.com/2016/11/25/world/europe/fake-news-donald-trump-hillary-clinton-georgia.html"]
     },
-    "week3": {
+    "3": {
         "part": 1,
         "name": "Value of research in public policy",
         "speaker": "Nancy Olewiler",
@@ -28,7 +28,7 @@
                     "http://www.horizons.gc.ca/en/content/capacity-collaboration-and-culture-future-policy-research-function-government-canada",
                     "http://sci-hub.tw/10.1093/scipol/scw055"]
     },
-    "week5a": {
+    "4": {
         "part": 1,
         "name": "Knowledge Sharing and Social Responsibility",
         "speaker": "Mario Pinto",
@@ -36,7 +36,7 @@
         "required": [],
         "optional": []
     },
-    "week5b": {
+    "5": {
         "part": 2,
         "name": "University-Community Connections",
         "speaker": "Luke Terra",
@@ -45,7 +45,7 @@
                     "https%3A%2F%2Ffiles.eric.ed.gov%2Ffulltext%2FEJ1018672.pdf"],
         "optional": ["https%3A%2F%2Fwww.scholcommlab.ca%2Fwp-content%2Fuploads%2F2018%2F03%2Fhartley2009.pdf"]
     },
-    "week6": {
+    "6": {
         "part": 2,
         "name": "Collaborating with indigenous communities in research",
         "speaker": "John Borrows",
@@ -53,7 +53,7 @@
         "required":["https://www.scholcommlab.ca/wp-content/uploads/2018/03/EmilySnyderValNapoleonJoh.pdf"],
         "optional":[]
     },
-    "week7": {
+    "7": {
         "part": 2,
         "name": "Understanding the public’s use of research through social media",
         "speaker": "Juan Pablo Alperin",
@@ -61,7 +61,7 @@
         "required":["https%3A%2F%2Farxiv.org%2Fftp%2Farxiv%2Fpapers%2F1603%2F1603.04939.pdf"],
         "optional":[]
     },
-    "week8": {
+    "8": {
         "part": 2,
         "name": "Citizen Science",
         "speaker": "Shannon Dosemagen",
@@ -70,7 +70,7 @@
                    "https%3A%2F%2Fwww.epa.gov%2Fsites%2Fproduction%2Ffiles%2F2018-04%2Fdocuments%2Fnacept_citizen_science_publication_eng_022318_rf508_508.pdf"],
         "optional": ["https://www.nature.com/articles/d41586-018-07106-5"]
     },
-    "week9": {
+    "9": {
         "part": 3,
         "name": "Why access matters",
         "speaker": "Juan Pablo Alperin",
@@ -80,7 +80,7 @@
                    "https%3A%2F%2Fpeerj.com%2Farticles%2F4375%2F"],
         "optional":  []
     },
-    "week10": {
+    "10": {
         "part": 3,
         "name": "Global participation in knowledge production",
         "speaker": "Hebe Vesuri",
@@ -89,7 +89,7 @@
                     "http://eprints.rclis.org/23682/1/Current-socio-published-non-Sage-format.pdf"],
         "optional": []
     },
-    "week11": {
+    "11": {
         "part": 3,
         "name": "Critical Approaches to Open Access",
         "speaker": "Juan Pablo Alperin",
@@ -99,7 +99,7 @@
                     "https://crln.acrl.org/index.php/crlnews/article/view/17246/18986"],
         "optional": []
     },
-    "week12": {
+    "12": {
         "part": 3,
         "name": "The Future of the Public Mission of Universities",
         "speaker": "Robin DeRosa",
