@@ -104,7 +104,19 @@
         "name": "The Future of the Public Mission of Universities",
         "speaker": "Robin DeRosa",
         "date": "22/11/2018",
-        "required": ["https://generousthinking.hcommons.org/4-working-in-public/"],
+        "required": [
+            "http://robinderosa.net/uncategorized/open-for-the-public-using-open-education-to-build-a-case-for-public-higher-ed/",
+            "https://generousthinking.hcommons.org/4-working-in-public/",
+            "https://generousthinking.hcommons.org/4-working-in-public/public-access/",
+            "https://generousthinking.hcommons.org/4-working-in-public/public-engagement/",
+            "https://generousthinking.hcommons.org/4-working-in-public/public-intellectuals/",
+            "https://generousthinking.hcommons.org/4-working-in-public/public-scholarship/",
+            "https://generousthinking.hcommons.org/5-the-university/",
+            "https://generousthinking.hcommons.org/5-the-university/public-and-private-goods/",
+            "https://generousthinking.hcommons.org/5-the-university/paradigm-shift/",
+            "https://generousthinking.hcommons.org/5-the-university/community/",
+            "https://generousthinking.hcommons.org/5-the-university/possibilities/"
+        ],
         "optional": []
     }
 }
