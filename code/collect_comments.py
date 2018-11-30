@@ -29,7 +29,6 @@ for week in sorted(classes.keys(), key=int):
     name = v['name']
     date = pd.datetime.strptime(v['date'], '%d/%m/%Y')
     part = v['part']
-    week = week[4:]
 
     for url in v['required']:
         readings.loc[len(readings)+1] = [urltools.unquote(url),
@@ -85,6 +84,6 @@ for ix, row in tqdm(list(readings.iterrows()), desc="Parsing annotations"):
             references = None
 
         comments.loc[id] = [url_id, user, text, created, updated, references]
-comments['in_class'] = comments.user.map(lambda x: x in list(usernames.values()))
+comments['in_class'] = comments.user.map(lambda x: x in list(usernames))
 comments.index.name = "id"
 comments.to_csv("../data/comments.csv")
