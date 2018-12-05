@@ -29,7 +29,7 @@ for week in sorted(classes.keys(), key=int):
     name = v['name']
     date = pd.datetime.strptime(v['date'], '%d/%m/%Y')
     part = v['part']
-
+ 
     for url in v['required']:
         readings.loc[len(readings)+1] = [urltools.unquote(url),
                                          week, part, date, True, speaker, None, None]
