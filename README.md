@@ -55,8 +55,14 @@ Hello test test
 ![Overview of comments during the PDC](plots/week_overview.png)
 <center><em>Fig.1: Overview of comments during the PDC.</em></center>
 
+
+<figure align="center">
+  <img src="plots/days_before_class.png"/>
+  <figcaption>Fig.2: Number of days before a class that.</figcaption>
+</figure>
+
 ![days before class](plots/days_before_class.png)
-<center><em>Fig.2: Number of days before a class that</em></center>
+<em>Fig.2: Number of days before a class that</em>
 
 ### How did students annotate?
 
