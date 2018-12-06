@@ -9,10 +9,10 @@ Date: 05.12.2018
 
 - Full Jupyter notebook including code for analysis and plots: [notebook](code/results.ipynb)
 - Presentation used for the last class of the course: [link](http://htmlpreview.github.io/?https://github.com/Bubblbu/public-knowledge-annotations/blob/master/code/presentation.html)
-- Detailed survey results: [spreadsheet](https://docs.google.com/spreadsheets/d/1E6pEg0XN_D23kmaWL4wkbIysw6DHWdXmiNVY4cp4I18/edit?usp=sharing)
+- Detailed survey results: [spreadsheet](data/survey.csv)
 - About Hypothesis: [homepage](hypothes.is)
 
-## The Data
+## The Data Sources
 
 The data used for this analysis comes from three different sources.
 
@@ -35,7 +35,15 @@ Hypothesis provides an API to programmatically retrieve annotation data for indi
 - References (other annotations that this object was a reply to)
 - The username of the author
 
-## Some insights and results
+## The Data
+
+In total, the course consisted of 12 weeks and 28 annotated readings. Hypothesis found 1431 annotations for these 28 URLs, while 24 of these were created before the first class of the PDC. Of the 1417 annotations that were created during the 12 weeks, 1286 (91%) were created by students of this course.
+
+9 students filled out the [survey](data/survey.csv), while 7 provided a complete set of answers.
+
+> **_1286 annotations_ created by _14 students_ (and Juan) during _12 weeks_ of classes on _28 readings_.**
+
+### When did students annotate?
 
 ![overview of comments during the PDC](plots/week_overview.png)
 
