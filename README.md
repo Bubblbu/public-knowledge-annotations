@@ -53,16 +53,15 @@ In the following section I will present a few initial insights and attempts to t
 Hello test test
 
 ![Overview of comments during the PDC](plots/week_overview.png)
-<center><em>Fig.1: Overview of comments during the PDC.</em></center>
+<em>Fig.1: Overview of comments during the PDC.</em>
 
-
-<figure align="center">
+<figure>
   <img src="plots/days_before_class.png"/>
-  <figcaption>Fig.2: Number of days before a class that.</figcaption>
+  <figcaption style="text-align: center;">Fig.2: Number of days before a class that.</figcaption>
 </figure>
 
 ![days before class](plots/days_before_class.png)
-<em>Fig.2: Number of days before a class that</em>
+Fig.2: Number of days before a class that
 
 ### How did students annotate?
 
