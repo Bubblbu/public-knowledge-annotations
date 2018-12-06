@@ -70,12 +70,12 @@ In the following section I will present a few initial insights and attempts to t
 Figure 1 visualises the unsurprising fact that human beings (and students) work towards deadlines. The size of bubbles representing new comments on the readings increase in their size once the weekly lectures (red lines) approach.
 
 ![Overview of comments during the PDC](plots/week_overview.png)
-<center><em>Fig.1: Overview of comments during the PDC.</em></center><br>
+<p><em>Fig.1: Overview of comments during the PDC.</em></p>
 
 We can depict this circumstance in an even more convincing way if we look at the days until the relevant class for each annotation. We would expect to see majority of the activity within the week before each class, especially peaking just before the final day. This is exactly what we observe in figure 2, which shows that more than 65% of all annotations are created on the same day as the class or the day before.
 
 ![days before class](plots/days_before_class.png)
-<center><em>Fig.2: Number of days before a class that</em></center><br>
+<p><em>Fig.2: Number of days before a class took place</em></p>
 
 These findings are not entirely surprising even though I was curious if the data would show some annotations that were created outside of the expected margin of plus/minus a few days of the lecture.
 
@@ -84,19 +84,19 @@ These findings are not entirely surprising even though I was curious if the data
 Now that we know when students annotate their readings, we can start to look at which readings were annotated more often than others. Figure 3 shows that the number of comments fluctuated around 100 comments per week with the exception of week 5 (Luke Terra's lecture on _University-Community Connections_). At this point, it is interesting to note that that week also received the most votes for the _most engaging_ week (3 votes ahead of Robin DeRosa with 2 votes).
 
 ![Comments per reading stacker per week](plots/comments_per_reading.png)
-<center><em>Fig.3: Each stacked sub-bar represents one reading. Multiple readings in the same week are stacked to represent the total of the week. Colors are according to the assigned part in the syllabus.</em></center><br>
+<p><em>Fig.3: Each stacked sub-bar represents one reading. Multiple readings in the same week are stacked to represent the total of the week. Colors are according to the assigned part in the syllabus.</em></p>
 
 But does it make sense to simply look at the number of comments created on the document to evaluate/measure/predict [_insert vague concept of choice_]<sup>[1](#footnote)</sup>? My simple assumption was, that writing longer comments should take you longer, thus, leading to a lack of time to create more comments. More comments -> shorter comments. Let us question the data:
 
 ![Median length of comments vs number of comments](plots/comments_vs_length.png)
-<center><em>Fig.4: Comparing the median length of comments with the number of comments for each part, week, and reading.</em></center><br>
+<p><em>Fig.4: Comparing the median length of comments with the number of comments for each part, week, and reading.</em></p>
 
 As we can see, my highly sophisticated hypothesis does not hold in the face of the equally highly sophisticated data. I am refusing to offer any correlations at this point, as I do not think that the reduction to a number would improve our insights, and will simply ask you to have a look at the scatterplots in figure 4 which show that the number of comments and the median length seem to show a mild positive correlation for aggregations across the parts, weeks, or single readings.
 
 But what about comment lengths and comment frequency for individual users? Can we model different _annotation styles_ based on these two variables?
 
 ![number of comments vs median length of comments](plots/user_ranks_length_vs_comments.png)
-<center><em>Fig.5: The changes of user rankings according to the number of comments created and the median length of comments</em></center><br>
+<p><em>Fig.5: The changes of user rankings according to the number of comments created and the median length of comments</em></p>
 
 Interestingly, for our limited dataset, there seem to be a few different types of annotaters in our class.
 
@@ -114,12 +114,12 @@ Just a few extras to show off other possible analyses based on the available dat
 Figure 6 shows how the creation and update times contained in the annotations could be used to (very) roughly estimate the reading time for an article. Some obvious problems are work sessions spread across long timespans and that the actual activity of reading and thinking does not necessarily occur linearly.
 
 ![reading times](plots/reading_times.png)
-<center><em>Fig.6: Median reading times per article</em></center><br>
+<p><em>Fig.6: Median reading times per article</em></p>
 
 While reading comments I thought that linking to other resources (e.g., Wikipedia for definitions, follow-up research, or relevant news coverage) represented a special kind of annotation that felt more _engaging_. I was curious to see how frequent these comments with links to resources were in the data. Turns out that only 106 (8.2%) of all comments contained a URL. Figure 6 shows a breakdown of the most avid linkers among our group.
 
 ![comments containing URLs](plots/comments_with_urls.png)
-<center><em>Fig.6: Number of comments containing URLs</em></center><br>
+<p><em>Fig.6: Number of comments containing URLs</em></p>
 
 ### Predicting engagement with annotations
 
@@ -130,7 +130,7 @@ The, obviously naive, hypothesis is that _highly engaging_ readings (or weeks or
 The following graph shows the difference in the rank between the user's actual _most engaging_ paper/week/part as reported in the survey and rank of the same reported paper/week/part as measured by number/length of comments. This means, that ideally we would see two matrices of 1s meaning that each self-reported item also took the 1st place in the measured ranking.
 
 ![predicting engagement](plots/engagement_predictors.png)
-<center><em>Fig.7: Differences between the rank of self-reported most-engaging items (rank: 1) and the ranks of items as measured by number and length of comments.</em></center><br>
+<p><em>Fig.7: Differences between the rank of self-reported most-engaging items (rank: 1) and the ranks of items as measured by number and length of comments.</em></p>
 
 ## Contact
 
