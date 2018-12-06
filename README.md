@@ -43,11 +43,22 @@ In total, the course consisted of 12 weeks and 28 annotated readings. Hypothesis
 
 > **_1286 annotations_ created by _14 students_ (and Juan) during _12 weeks_ of classes on _28 readings_.**
 
-### When did students annotate?
+## What can we learn from the data?
 
-![overview of comments during the PDC](plots/week_overview.png)
+Given that the data from Hypothesis was available, I decided to use this chance to explore the notions of annotations & engagement within the context of the President's Dream Colloquium.
+
+In the following section I will present a few initial insights and attempts to think about the meaning of annotation papers.
+
+### When did students annotate?
+Hello test test
+
+![Overview of comments during the PDC](plots/week_overview.png)
+*<center>Fig.1: Overview of comments during the PDC.</center>*
 
 ![days before class](plots/days_before_class.png)
+*<center>Fig.2: Number of days before a class that</center>*
+
+### How did students annotate?
 
 ![Comments per reading stacker per week](plots/comments_per_reading.png)
 
@@ -55,11 +66,16 @@ In total, the course consisted of 12 weeks and 28 annotated readings. Hypothesis
 
 ![number of comments vs median length of comments](plots/user_ranks_length_vs_comments.png)
 
-![predicting engagement](plots/engagement_predictors.png)
+**Some other insights...**
 
 ![reading times](plots/reading_times.png)
 
 ![comments containing URLs](plots/comments_with_urls.png)
+
+### Predicting engagement with annotations
+
+![predicting engagement](plots/engagement_predictors.png)
+
 
 ## Other Questions
 
@@ -67,7 +83,7 @@ In total, the course consisted of 12 weeks and 28 annotated readings. Hypothesis
 
 ## Contact
 
-I would love to hear about your thoughts and other ideas for further analyses. Feel free to submit an issue in this repository or simply shoot me a text at [asura.enkhbayar@gmail.com](mailto:asura.enkhbayar@gmail.com).
+I would love to hear about your thoughts and other ideas for further analyses. Feel free to submit a [new issue](https://github.com/Bubblbu/public-knowledge-annotations/issues/new) or simply shoot me a text at [asura.enkhbayar@gmail.com](mailto:asura.enkhbayar@gmail.com).
 
 ## License
 
