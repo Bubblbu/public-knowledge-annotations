@@ -8,18 +8,18 @@ Date: 05.12.2018
 **Table of Content**
 
 - [[MKP] - Hypothesis, Annotations, and Engagement](#mkp---hypothesis-annotations-and-engagement)
-    - [Materials](#materials)
-    - [The Data Sources](#the-data-sources)
-        - [1. Making Knowledge Public - Course Material](#1-making-knowledge-public---course-material)
-        - [2. Survey among students](#2-survey-among-students)
-        - [3. Our annotations retrieved from Hypothesis API](#3-our-annotations-retrieved-from-hypothesis-api)
-    - [The Data](#the-data)
-    - [What can we learn from the data?](#what-can-we-learn-from-the-data)
-        - [When did students annotate?](#when-did-students-annotate)
-        - [How did students annotate?](#how-did-students-annotate)
-        - [Predicting engagement with annotations](#predicting-engagement-with-annotations)
-    - [Contact](#contact)
-    - [License](#license)
+  - [Materials](#materials)
+  - [The Data Sources](#the-data-sources)
+    - [1. Making Knowledge Public - Course Material](#1-making-knowledge-public---course-material)
+    - [2. Survey among students](#2-survey-among-students)
+    - [3. Our annotations retrieved from Hypothesis API](#3-our-annotations-retrieved-from-hypothesis-api)
+  - [The Data](#the-data)
+  - [What can we learn from the data?](#what-can-we-learn-from-the-data)
+    - [When did students annotate?](#when-did-students-annotate)
+    - [How did students annotate?](#how-did-students-annotate)
+    - [Predicting engagement with annotations](#predicting-engagement-with-annotations)
+  - [Contact](#contact)
+  - [License](#license)
 
 ## Materials
 
