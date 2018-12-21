@@ -1,6 +1,10 @@
 # Engaging Annotations or Annotating Engagement?
 
-> Experiencing the metrics hype first hand
+> Exploring annotations as the metric of the classroom
+
+21.12.2018, Asura Enkhbayar
+
+---
 
 This year's President's Dream Colloquium on [**_Making Public Knowledge_**](https://www.sfu.ca/dean-gradstudies/events/dreamcolloquium/DreamColloquium-making-knowledge-public.html) at SFU was all about the public aspects of knowledge production and dissemination at universities. Fittingly, I found myself reading and creating public annotations on the readings for the course using a tool called [_Hypothesis_](https://hypothes.is/). One of the main features that Hypothesis offers is the public annotation of PDFs including the option **to view and reply to other users comments and highlights**. This fundamentally changes the nature of working on the weekly readings: The solitary task of understanding a wall of text is enriched (or maybe drowned?) by the incessant chatter of fellow students' comments.
 
